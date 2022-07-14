@@ -1,0 +1,39 @@
+"SOFTWARE TO INSTALL"
+1. Python
+2. PostgresSql
+3. Pgadmin
+4. Visual Studio Code
+
+Commands for Installation:
+
+Python --version // to check for python version intsall
+pip --version // to check for pip version install
+pip install virtualenvwrapper-win // to install virtual environment
+mkvirtual test //name or create the virtual environment
+
+You can install virtual environment using pip:
+py -m pip install --user virtualenv
+
+For creating new environment:
+py -m venv test
+
+To activate your virtual environment:
+.\test\Scripts\activate
+
+pip install django // to install django
+$py -m django --version
+django-admin --version // to check for django version intsall
+mkdir projects // make directory for main project
+cd projects //to go in projects path
+django-admin startproject rise // name the 1st project to start with
+cd rise // to go in rise path
+
+python manage.py runserver // to run the server
+
+NOTE: NOW to go any browser and type 127.0.0.1:8000 to check the server is running or not
+
+-> Open Visual Studio Code and open the folder rise from C: drive
+
+-> Open CMD in Visual Studion and write following codes:
+workon test // to enter the virtal environment
+python manage.py startapp calc // name any app to start with  
